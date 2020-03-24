@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <!-- 全局地开启或关闭配置文件中的所有映射器已经配置的任何缓存。 -->
+        <setting name="cacheEnabled" value="false"/>
+        <!-- 允许 JDBC 支持自动生成主键，需要驱动支持。 如果设置为 true 则这个设置强制使用自动生成主键，尽管一些驱动不能支持但仍可正常工作（比如 Derby）。 -->
+        <setting name="useGeneratedKeys" value="true"/>
+        <!-- 允许在嵌套语句中使用分页（ResultHandler）。如果允许使用则设置为 false。 -->
+        <setting name="safeResultHandlerEnabled" value="true"/>
+        <!-- 设置超时时间，它决定驱动等待数据库响应的秒数。 -->
+        <setting name="defaultStatementTimeout" value="60"/>
+    </settings>
+    <!--<typeAliases>-->
+        <!--&lt;!&ndash; type 别名 alias 类完全限定名 &ndash;&gt;-->
+        <!--<typeAlias type="Author" alias="com.taoyuan.model.Author" />-->
+    <!--</typeAliases>-->
+</configuration>
