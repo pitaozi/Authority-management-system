@@ -13,7 +13,7 @@
 2、新增管理员的密码处理SysUserService.java里的save()方法里需要移除password = "12345678";  
 3、同时，MailUtil里的发信参数要补全，并在SysUserService.java里的save()里sysUserMapper.insert(user)之前调用  
   
-## 不足  
+## 不足：  
 前端由于是粘的模板，第一次运行时速度有点慢  
   
 ## 后续待开发内容：  
